@@ -1,2 +1,3 @@
 # asteroids
-boot.dev asteroids project
+
+Asteroids [Boot.dev](https://www.boot.dev) project!
