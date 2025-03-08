@@ -41,6 +41,10 @@ def main():
             if player.collision_check(object):
                 print("Game over!")
                 sys.exit()
+            for bullet in shots_group:
+                if bullet.collision_check(object):
+                    object.split()
+                    bullet.kill()
 
         # Update shots
         for shot in shots_group:
